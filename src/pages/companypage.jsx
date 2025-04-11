@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import logo from "../assets/images/logo.jpg";
-import plane from "../assets/images/plane.png";
+import plane from "../assets/images/plane.jpg";
 
 const CompanyPage = () => {
   const [showProfile, setShowProfile] = useState(false);
@@ -21,7 +21,7 @@ const CompanyPage = () => {
       {/* ✈️ Animated Airplane */}
       {showPlane && (
         <img
-          src={plane}
+          src={logo}
           alt="Flying Airplane"
           className="airplane"
         />
@@ -31,7 +31,7 @@ const CompanyPage = () => {
       {showProfile && (
         <div className="bg-white rounded-2xl shadow-lg max-w-md w-full p-8 text-center">
           <img
-            src={logo}
+            src={plane}
             alt="GHI Assets Logo"
             className="w-28 h-28 mx-auto rounded-full mb-4 border-4 border-blue-200"
           />
