@@ -43,7 +43,7 @@ const CompanyPage = () => {
             services to reputable airlines and over 50% of travel and tour customers in Nigeria.
           </p>
           <p className="text-gray-600 mb-2">📍 45, Oduduwa Way, Ikeja, Lagos, Nigeria</p>
-          <p className="text-gray-600 mb-2">📞 +2348012345678</p>
+          <p className="text-gray-600 mb-2">📞 02012799009</p>
           <p className="text-gray-600 mb-2">📧 info@ghiassets.com</p>
           <a
             href="https://www.ghiassets.com"
